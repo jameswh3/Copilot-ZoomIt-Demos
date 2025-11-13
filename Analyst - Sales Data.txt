@@ -1,0 +1,1 @@
+Review this dataset and provide a clear performance summary for our upcoming CEO meeting. Highlight sales trends, top performing products, underperforming areas, customer segments contributing most to revenue, and any anomalies or unusual patterns in the data. Keep the insights concise, visual where possible, and ready to be presented to senior leadership.[end]

@@ -1,0 +1,1 @@
+Give me a Gulf Coast supply-demand snapshot for gasoline, ULSD, and jet fuel for the next 7–10 days. Include key drivers, inventory trends, pipeline or marine constraints, and any weather or port risks. Summarize actionable levers (like swaps or pull-ins) and cite credible sources like EIA, Platts, and NOAA.[end]

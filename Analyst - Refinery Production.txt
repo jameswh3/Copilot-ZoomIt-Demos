@@ -1,0 +1,4 @@
+Show the daily ULSD production trend for each facility and overlay the 7‑day rolling average.[end]
+Highlight any days where production dropped more than 15% below the 7‑day average.[end]
+Based on historical ULSD production, what is the projected output for the next 14 days?[end]
+If we have a turnaround at the Beaumont refinery in early October that reduces output by 10% for two weeks, which refineries could increase daily output to make up for the deficit? Do not recommend increasing capacities for any refinery above the highest 14 day output.[end]

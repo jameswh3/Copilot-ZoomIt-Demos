@@ -1,0 +1,20 @@
+Analyze the attached energy sales dataset to produce a CFO-ready report that highlights financial performance, operational efficiency, and strategic risks across energy segments and product lines. Specifically, I want you to:
+1.	Segment Analysis: 
+o	Compare total sales, average sale price, and profit across Solar, Wind, Hydro, Geothermal, and Biomass segments.
+o	Identify which segments are driving revenue vs. profitability, and flag any segments operating at a loss.
+2.	Product-Level Profitability: 
+o	Rank products by total sales and profit contribution.
+o	Highlight products with high unit volume but low margin, and any products with frequent losses.
+3.	Monthly Trends & Seasonality: 
+o	Visualize sales and profit trends by month and year.
+o	Identify seasonal peaks and troughs, and correlate with unit volumes.
+4.	Discount Impact: 
+o	Quantify how discounting affects gross sales and net profit.
+o	Flag any discount bands that consistently erode profitability.
+5.	Outlier & Risk Detection: 
+o	Surface transactions with unusually high or negative profit.
+o	Identify patterns in loss-making deals (e.g., segment, product, pricing).
+6.	Executive Summary: 
+o	Provide a concise summary of key findings with actionable recommendations for improving margin, optimizing product mix, and reducing financial risk.
+Use charts and tables where appropriate. Prioritize clarity, financial relevance, and strategic insight. This report will be used to inform FY26 planning and investment decisions.
+[end]

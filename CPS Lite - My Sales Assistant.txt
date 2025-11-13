@@ -1,0 +1,3 @@
+I want to create a sales helper agent that can field questions about Salesforce opportunities, accounts, and contacts.[end]
+Let's call it My Sales Assistant[end]
+What opportunities are there for J3 Global Tech and what stage are they at?[end]

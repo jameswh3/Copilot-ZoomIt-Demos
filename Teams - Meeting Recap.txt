@@ -1,0 +1,3 @@
+Give me a list of the meeting attendees and their roles[end]
+What were the key points discussed and any decisions made[end]
+were any of the decisions contentious, and if so, who was upset?[end]

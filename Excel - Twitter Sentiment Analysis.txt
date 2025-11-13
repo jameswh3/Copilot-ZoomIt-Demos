@@ -1,0 +1,5 @@
+can you help me do sentiment analysis on the text column?[end]
+Get deeper analysis results using Python[end]
+Analyze sentiment of the text column to understand user emotions[end]
+display a row-by-row analysis of sentiment[end]
+create a stacked bar chart with sentiment over time, grouping by month[end]
