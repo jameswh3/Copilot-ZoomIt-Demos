@@ -50,8 +50,10 @@ To use customer-specific or sensitive information without committing it to the r
 |----------|-----------|-------------|
 | **Analyst** | Analyst - Generic.txt | Iterative data analysis workflow - analyzes uploaded dataset, provides insights, and helps craft detailed CFO-ready prompts |
 | **Analyst** | Analyst - Oil and Gas Sales.txt | CFO-ready energy sales analysis covering segment performance, product profitability, trends, and risk detection |
+| **Analyst** | Analyst - Prep for Deeper Analysis.txt | Advanced data analysis workflow exploring trends, correlations, and visualizations, then generating optimized prompts for impactful CFO reports |
 | **Analyst** | Analyst - Refinery Production.txt | ULSD production analysis with daily trends, rolling averages, alerts, forecasting, and capacity planning |
 | **Analyst** | Analyst - Sales Data.txt | Executive sales performance summary with trends, top products, customer segments, and anomaly detection |
+| **Chat** | Chat - Researcher Prep Prompt.txt | Research planning workflow that outlines information needs and sources for executive earnings call preparation |
 | **CPS Lite** | CPS Lite - IT Help Buddy.txt | IT support agent that answers questions using ServiceNow knowledge base articles |
 | **CPS Lite** | CPS Lite - My Sales Assistant.txt | Sales helper agent that queries Salesforce for opportunities, accounts, and contacts |
 | **CPS Lite** | CPS Lite - My Writing Assistant.txt | Content drafting agent that creates emails, speeches, and memos in user's personal style |
