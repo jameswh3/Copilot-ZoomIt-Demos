@@ -1,0 +1,16 @@
+From the materials in this notebook, infer the upcoming meeting’s purpose and audience.
+Draft 2–3 sentences that clearly state:
+- The meeting objective (outcome-focused)
+- The primary audience (role, seniority)
+- Decision(s) or alignment sought
+Return a concise mission statement for the briefing.[end]
+Create a stakeholder snapshot for this meeting:
+- List participants by role (customer vs. internal, and seniority)
+- For each role, summarize likely priorities and concerns in one bullet
+- Highlight any sensitivities or talk-track cautions
+Format as a clean table, then 3 bullets of “what not to miss.”[end]
+Summarize the current situation in ~6 bullets:
+- What’s working well (2 bullets)
+- Top risks or blockers (2 bullets)
+- Near-term milestones or deliveries (2 bullets)
+Keep language executive-friendly and evidence-based from the notebook content.[end]

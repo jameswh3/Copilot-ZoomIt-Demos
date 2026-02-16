@@ -1,0 +1,8 @@
+Create a detailed briefing on emerging opportunities for applying generative AI and autonomous agents across <COMPANY_NAME>’s major business units—<BUSINESS_UNITS>. Summarize industry trends, competitor signals, and regulatory considerations relevant to oilfield services.
+For each business unit, identify 3–5 practical, high‑impact use cases that <COMPANY_NAME> could pursue in the next 12 months, supported by real-world examples from energy or adjacent heavy‑industrial sectors.
+Include:
+- Potential value (efficiency, safety, margin lift, customer differentiator)
+- Technical dependencies (data sources, operational systems, workflows)
+- Risks and mitigation considerations
+- A short executive summary suitable for a VP-level audience
+Cite all external sources and provide URLs at the end.[end]

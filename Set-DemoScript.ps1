@@ -1,6 +1,5 @@
 $demofilesPath = Get-Location
 $demofiles = Get-ChildItem -Path $demofilesPath -Filter "*.txt"
-$currentDemoPath = "$demofilesPath\CurrentDemo.txt"
 $envFilePath = "$demofilesPath\.env"
 
 # Function to read .env file and return hashtable of variables
@@ -51,8 +50,21 @@ function Replace-Placeholders {
     return $updatedContent
 }
 
+# Load environment variables early to determine output file
+$envVars = Get-EnvVariables -envPath $envFilePath
+
+# Set the current demo path from .env or use default
+if ($envVars.ContainsKey('OUTPUT_FILE') -and -not [string]::IsNullOrWhiteSpace($envVars['OUTPUT_FILE'])) {
+    $outputFileName = $envVars['OUTPUT_FILE']
+    Write-Host "Using OUTPUT_FILE from .env: $outputFileName" -ForegroundColor Cyan
+} else {
+    $outputFileName = "CurrentDemo.txt"
+    Write-Host "Using default output file: $outputFileName" -ForegroundColor Yellow
+}
+$currentDemoPath = "$demofilesPath\$outputFileName"
+
 # Create a menu from text files
-$validFiles = $demofiles | Where-Object { $_.Name -ne "CurrentDemo.txt" }
+$validFiles = $demofiles | Where-Object { $_.Name -ne $outputFileName }
 $menuOptions = @()
 $menuOptions += $validFiles | ForEach-Object { 
     [PSCustomObject]@{
@@ -95,9 +107,10 @@ do {
 # Get the selected file
 $selectedFile = $menuOptions[$selection-1]
 
-# Check if user selected CurrentDemo.txt
-if ($selectedFile.Name -eq "CurrentDemo") {
-    Write-Host "CurrentDemo selected. No action needed." -ForegroundColor Green
+# Check if user selected the output file
+$outputFileBaseName = [System.IO.Path]::GetFileNameWithoutExtension($outputFileName)
+if ($selectedFile.Name -eq $outputFileBaseName) {
+    Write-Host "Output file selected. No action needed." -ForegroundColor Green
     exit
 }
 
@@ -106,10 +119,7 @@ try {
     $content = Get-Content -Path $selectedFile.FullPath -Raw
     Set-Content -Path $currentDemoPath -Force -Value $content
     
-    Write-Host "Successfully copied '$($selectedFile.Name)' content to CurrentDemo.txt" -ForegroundColor Green
-    
-    # Load environment variables
-    $envVars = Get-EnvVariables -envPath $envFilePath
+    Write-Host "Successfully copied '$($selectedFile.Name)' content to $outputFileName" -ForegroundColor Green
     
     # Replace placeholders if env variables exist
     if ($envVars.Count -gt 0) {

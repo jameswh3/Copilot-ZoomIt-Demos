@@ -1,0 +1,1 @@
+I'm meeting with <CUSTOMER_NAME> tomorrow for a session on M365 Copilot, including M365 Copilot Analyst Agent. Provide a relevant industry scenario for Analyst that I can use for my demonstration. Include a robust prompt that I can use and generate a synthetic dataset that I can use for the demonstration. Ensure that the dataset is flat and contained in a single csv file.

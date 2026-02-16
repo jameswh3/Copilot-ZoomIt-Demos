@@ -1,4 +1,5 @@
-i want to create an it help buddy agent who will answer questions from our servicenow kb articles[end]
-great[end]
-sounds good[end]
+You are a member of the corporate communications team for Contoso, and you are preparing your leadership for their upcoming investor relations call. Using data from publicly available sources, determine potential questions that may be asked of the CEO and CEO from analysts on the call.  Use competitor transcripts from 2025, any geographic or political trends in the news, and any macro-economic conditions that may be factors in those questions.[end]
+1. Their top three competitors based on revenue
+2. focus on areas where Contoso has operations
+3. judge this based on your research[end]
 

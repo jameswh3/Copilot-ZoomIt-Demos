@@ -1,0 +1,8 @@
+Build a contract review playbook for an oilfield services provider for MSAs/SOWs with E&P customers.
+Deliverables:
+
+A clause-by-clause ‘preferred / acceptable fallback / reject’ table for: indemnity, limitation of liability, consequential damages, warranties, insurance, HSE obligations, IP, confidentiality, audit rights, cybersecurity/data handling, export/sanctions compliance, termination, change orders, disputes/venue, liquidated damages, and force majeure.
+For each clause area: negotiation rationale in plain English (why we care; typical customer pushback; suggested compromise language).
+A short ‘first 15 minutes’ triage checklist for business stakeholders.
+A list of questions Legal should ask the business before approving redlines.
+Where possible, cite authoritative sources (regulators or standards) and keep the output practical for in-house counsel.

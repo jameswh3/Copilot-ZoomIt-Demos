@@ -1,0 +1,7 @@
+Read the attached CSV and infer its schema. In one pass:
+• Summarize last‑12‑month trends, call out best/worst Plant×Unit.
+• Identify top drivers of Energy Intensity and Flared Gas (ranked, with correlation/effect sizes).
+• Flag outliers/anomalies with likely causes.
+• Recommend 5–7 actions to lower energy intensity and flaring without degrading On Spec Rate, OEE, or on‑time shipments.
+• Produce 3 visuals: (1) energy intensity over time by Unit_Type, (2) flared gas by Plant×Unit, (3) intensity vs ambient temp (bubble size=downtime).
+Be concise, quantitative, and clearly labeled.[end]

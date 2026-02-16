@@ -1,0 +1,1 @@
+I'm meeting with <CUSTOMER_NAME> tomorrow for a session on M365 Copilot, including Researcher. Provide a relevant industry scenario for Researcher that I can use for my demonstration. Include a robust prompt that I can use that takes into consideration authoritative sources and relevant context for the scenario.[end]
