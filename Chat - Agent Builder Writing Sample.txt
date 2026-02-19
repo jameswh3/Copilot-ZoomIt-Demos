@@ -1,0 +1,1 @@
+Help me curate a samples from emails sent to customers and colleagues that capture my writing style. This will be used as input to a Copilot Agent, so I want the final form to be in a word document. Anonymize and people and/or customer names in the samples and provide 7-10 examples total.[end]
