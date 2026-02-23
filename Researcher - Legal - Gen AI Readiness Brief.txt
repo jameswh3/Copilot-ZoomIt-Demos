@@ -1,8 +1,8 @@
-Create a source-cited AI governance readiness brief for a multinational energy services company.
+Create a source-cited AI governance readiness brief for a <CUSTOMER_INDUSTRY> company.
 Include:
 
 A ‘what changed in 2025–2026’ summary of major AI governance/regulatory developments that affect corporate users (US state laws, federal direction, EU obligations for companies with EU activity).
 A practical impact assessment for Legal, HR, Procurement, Security, and IT (who must do what).
 A draft internal policy outline for employee use of generative AI (approved tools, prohibited data, confidentiality, third-party sharing, record-keeping, and escalation).
 A vendor/contract addendum checklist for AI suppliers (data use, training, retention, audit, incident reporting, indemnity).
-Keep it plain-language and include an executive one-pager plus an appendix with citations.
+Keep it plain-language and include an executive one-pager plus an appendix with citations.[end]

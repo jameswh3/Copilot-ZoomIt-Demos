@@ -70,6 +70,8 @@ You can define a custom output file name using the `.env` file instead of the de
 | **Analyst** | Analyst - Prep for Deeper Analysis - Sales Metrics.txt | Advanced data analysis workflow exploring trends, correlations, and visualizations, then generating optimized prompts for impactful CFO reports |
 | **Analyst** | Analyst - Refinery Production.txt | ULSD production analysis with daily trends, rolling averages, alerts, forecasting, and capacity planning |
 | **Analyst** | Analyst - Sales Data.txt | Executive sales performance summary with trends, top products, customer segments, and anomaly detection |
+| **Chat** | Chat - Agent Builder Writing Sample.txt | Demo preparation tool that curates writing style samples from emails to train a Copilot Agent with personalized communication patterns |
+| **Chat** | Chat - Copilot Personalization.txt | Automatically generates personalized Custom instructions for Microsoft 365 Copilot Chat by analyzing user's recent work context and patterns |
 | **Chat** | Chat - Generate Analyst Demo Prompt and Content.txt | Demo preparation tool that generates industry-specific Analyst scenarios, prompts, and synthetic datasets for customer presentations |
 | **Chat** | Chat - Generate Researcher Demo Prompt.txt | Demo preparation tool that creates industry-relevant Researcher scenarios and prompts for customer presentations |
 | **Chat** | Chat - Prep for Researcher Cracking Tech.txt | Research prompt generator for petrochemical catalytic cracking technologies focused on emissions and yield improvements |
@@ -78,6 +80,7 @@ You can define a custom output file name using the `.env` file instead of the de
 | **Create** | Create - Oil Rig.txt | Image generation demo - creates custom oil rig scene at dusk with logo incorporation |
 | **Excel** | Excel - Twitter Sentiment Analysis.txt | Sentiment analysis workflow with Python-based analysis, row-by-row scoring, and time-based visualization |
 | **Finance Agent** | Finance Agent - Variance Contoso.txt | Financial data transformation for variance analysis - fills customer names, removes invalid rows, formats amounts, and converts CAD to USD |
+| **Notebook** | Notebook.txt | Meeting briefing preparation workflow with stakeholder analysis, situation summary, and executive-friendly talking points |
 | **Power Platform** | Power Platform Plan Designer - Safety.txt | Safety management system design with mobile reporting, trend tracking, and AI assistant |
 | **Researcher** | Researcher - Financial Earnings Call.txt | Prepares executives for earnings calls with top analyst questions based on trends and competitor data |
 | **Researcher** | Researcher - Gen AI Application.txt | Comprehensive briefing on generative AI and autonomous agent opportunities across business units with industry trends and use cases |
